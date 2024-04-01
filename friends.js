@@ -24,10 +24,11 @@ addFriend = () => {
 
 reset = () => {
     friendList = [];
-    document.getElementById("showFriend").innerHTML = "";
+    document.getElementById("showFriend").innerHTML = " ";
     document.getElementById("result").innerHTML = "";
     inputNumber = Math.floor(Math.random() * 9) + 1;
     document.getElementById("inputCount").innerHTML = "กรอกชื่อและอายุของเพื่อนจำนวน " + inputNumber + " คน";
+    document.getElementById("submitBtn").disabled = false;
 }
 
 sumAge = () => {
