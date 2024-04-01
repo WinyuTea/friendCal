@@ -82,7 +82,7 @@ maxAge = () => {
                 return;
             }
         });
-        if(max != null) document.getElementById("result").innerHTML = " ชื่อเล่น: " + minName + " อายุ: " + min;
+        if(max != null) document.getElementById("result").innerHTML = " ชื่อเล่น: " + maxName + " อายุ: " + max;
         else document.getElementById("result").innerHTML = document.getElementById("showFriend").innerHTML;
     } else alert("โปรดกรอกข้อมูลเพื่อนให้ครบ");
 }
